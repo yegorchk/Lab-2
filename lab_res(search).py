@@ -35,10 +35,10 @@ def filter_value(dataset, title, value):
 
 
 def search(object, author):
-    search_res = []
+    search_res = set()
     for i in object:
-        if i["Автор (ФИО)"] == author:
-            search_res.append(i["Название"])
+        if i["Автор"] == author:
+            search_res.add(i["Название"])
     return search_res
 
 
