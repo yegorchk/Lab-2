@@ -1,5 +1,5 @@
 import csv
-import json
+import json     
 
 
 DATASET_PATH = "memes_dataset.csv"
